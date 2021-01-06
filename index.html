@@ -1,1 +1,44 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Encryption</title>
+    <link rel="icon" type="image/png" href="images/icon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Image Encryption</h1>
+
+  <div class="canvases">
+    <canvas id="c1">
+    </canvas>
+
+    <canvas id="c2">
+    </canvas>
+
+    <canvas id="c3">
+    </canvas>
+
+    <p class="names" id="p1">Original<br>Image</p>
+    <p class="names" id="p2">Encrypted<br>Image</p>
+    <p class="names" id="p3">Decrypted<br>Image</p>
+  </div>
+
+  <input type="file" accept="image/*" id="imgchoose" onchange="upload()">
+
+  <input type="button" class="b1" id="encr" value="Encrypt" onclick="encrypt()">
+  <input type="button" class="b1" id="decr" value="Decrypt" onclick="decrypt()">
+
+  <div>
+    <a id="download_btn" class="b1" onclick="download_img(this);">
+    Download
+    </a>
+  </div>
+
+  <script src="Js/SimpleImage.js"></script>
+  <script src="Js/index.js"></script>
+</body>
+
+</html>

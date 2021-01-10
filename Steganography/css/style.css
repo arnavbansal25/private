@@ -1,0 +1,98 @@
+h1{
+  text-align: center;
+  font-size: 4em;
+  color: purple;
+}
+
+.canvases{
+  position: relative;  
+}
+
+canvas{
+  width: 30.7%;
+  height: 22vw;
+  border: 1px solid lightgrey;
+  margin: 1%;
+  background-color: #f5f5ff;
+}
+
+.names{
+  position: absolute;
+  font-size: 3.5vw;
+  color: blue;
+  font-style: italic;
+  text-align: center;
+}
+
+#p1{
+  left: 11%;
+  top: 22%;
+}
+
+#p2{
+  left: 45%;
+  top: 22%;
+}
+
+#p3{
+  left: 79%;
+  top: 22%; 
+}
+
+#fgchoose{
+  font-size: 1.2vw;
+  margin-left: 7%;
+}
+
+#bgchoose{
+  font-size: 1.2vw;
+  margin-left: 11%;
+}
+
+.b1{
+  font-style: italic; 
+  font-size: 2vw;
+  color: lightyellow;
+  border: 5px solid;
+  border-color: lightblue;
+  padding: 1%;
+  background-color: green;
+}
+
+#com{
+  margin-left: 4%; 
+}
+
+#download_btn{
+  float: right;
+  margin-right: 3%;
+  background-color: red;
+}
+
+.second{
+  margin-top: 10%;
+}
+
+#p4{
+  left: 9%;
+  top: 22%;
+}
+
+#p5{
+  left: 41%;
+  top: 22%;
+}
+
+#p6{
+  left: 74%;
+  top: 22%; 
+}
+
+#img{
+  font-size: 1.2vw;
+  margin-left: 7%;
+}
+
+#ext{
+  margin-left: 31%;
+}

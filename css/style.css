@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   font-size: 4em;
-  color: purple;
+  color: black;
 }
 
 .canvases{
@@ -25,23 +25,28 @@ canvas{
 }
 
 #p1{
-  left: 10%;
+  left: 11%;
   top: 22%;
 }
 
 #p2{
-  left: 43%;
+  left: 45%;
   top: 22%;
 }
 
 #p3{
-  left: 76%;
+  left: 79%;
   top: 22%; 
 }
 
-#imgchoose{
+#fgchoose{
   font-size: 1.2vw;
   margin-left: 7%;
+}
+
+#bgchoose{
+  font-size: 1.2vw;
+  margin-left: 11%;
 }
 
 .b1{
@@ -54,17 +59,41 @@ canvas{
   background-color: green;
 }
 
-#encr{
-  margin-left: 14%;
-  margin-bottom: 3%; 
-}
-
-#decr{
-  margin-left: 23%; 
+#com{
+  margin-left: 8%; 
+  margin-bottom: 1%;
 }
 
 #download_btn{
-  position: relative;
-  left: 44%;
+  float: right;
+  margin-right: 10%;
   background-color: red;
+}
+
+.second{
+  margin-top: 10%;
+}
+
+#p4{
+  left: 9%;
+  top: 22%;
+}
+
+#p5{
+  left: 41%;
+  top: 22%;
+}
+
+#p6{
+  left: 74%;
+  top: 22%; 
+}
+
+#img{
+  font-size: 1.2vw;
+  margin-left: 7%;
+}
+
+#ext{
+  margin-left: 31%;
 }

@@ -166,23 +166,6 @@ function com_upload(){
   document.getElementById("p6").style.visibility = "visible";
 }
 
-function extract(){
-  if (com_img == null) {
-    alert("Combined Image not found!");
-    return;
-  }
-  if (!com_img.complete()) {
-    alert("Combined Image loading!");
-    return;
-  }
-  
-  fg_img_new = new SimpleImage(com_img.getWidth(), com_img.getHeight());
-  bg_img_new = new SimpleImage(com_img.getWidth(), com_img.getHeight());
-
-  for(var pi of fg_img_new.values()){
-    var r = com_img.getPixel(pi.getX(),pi.getY()).getRed();
-    var g = com_img.getPixel(pi.getX(),pi.getY()).getGreen();
-    var b = com_img.getPixel(pi.getX(),pi.getY()).getBlue();
 
     var r_fg = Math.floor(r/16)*16;
     var g_fg = Math.floor(g/16)*16;

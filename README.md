@@ -1,11 +1,20 @@
+<img src="https://github.com/arnavbansal25/Private/blob/main/logo.png" width=100>
+
 # Private
-Security Improvisation in Image using Steganography and Encryption
+Private is a secure multi-step way to share images across the internet. The web application uses omplex steganography and encryption to ensure your images are never compromised!
+ 
+## Live Demo Link
+Hosted on [Netlify](https://private-ab.netlify.app/)
 
-The live demo is available at - 
+## Technologies Used:
+- HTML
+- CSS
+- [Vanilla JavaScript](https://www.javascript.com/)
 
-This repository also includes individual functionalities, "Image Encryption" and "Steganography" provided as separated webpages through individually named folders which can be 
-viewed and edited on Codepen.io (links are provided). 
+## Library Used
+* SimplaeImage [Image Manipulation Library](https://www.dukelearntoprogram.com/course1/doc/#simpleimage)
 
-The three layered security mechanism is developed as a Web Application - ‘Private’ using HTML, CSS and JavaScript. Application requires an image as input from the user which is 
-then encrypted using AES encryption technique. We here try to provide an extra layer of security by hiding this encrypted original secret image behind a cover image using
-steganography. Now, this Cover-image (carrying the information of our original secret image) is again encrypted and is available for download after being processed.
+&nbsp;
+\
+SimpleImage Library [Raw File](https://www.dukelearntoprogram.com//course1/common/js/cs101/SimpleImage.js) \
+<a href="https://www.flaticon.com/free-icons/export" title="export icons">Export icons created by Freepik - Flaticon</a>

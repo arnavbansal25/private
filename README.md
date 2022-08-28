@@ -13,6 +13,11 @@ Hosted on [Netlify](https://private-ab.netlify.app/)
 |           :---:          |            :---:           |
 | <img src="https://github.com/arnavbansal25/Private/blob/main/screenshots/sender_side_transmission.png"> | <img src="https://github.com/arnavbansal25/Private/blob/main/screenshots/receiver_side_transmission.png"> |
 
+## How Steganography is used
+| Embedding | Retrieving |
+|   :---:   |    :---:   |
+| <img src="https://github.com/arnavbansal25/Private/blob/main/screenshots/steganography_embedding.png"> | <img src="https://github.com/arnavbansal25/Private/blob/main/screenshots/steganography_retrieving.png"> |
+
 ## Technologies Used:
 - HTML
 - CSS

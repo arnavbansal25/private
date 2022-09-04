@@ -1,8 +1,8 @@
 <img src="https://github.com/arnavbansal25/Private/blob/main/logo.png" width=100>
 
 # Private
-Private is a secure multi-step way to share images across the internet. The web application uses complex steganography and encryption to ensure your images are never compromised!
-Encryption - [CodePen](https://codepen.io/Arnav_/pen/RwReNXJ?editors=1010)
+Private is a secure multi-step way to share images across the internet. The web application uses complex steganography and encryption to ensure your images are never compromised!\
+Encryption - [CodePen](https://codepen.io/Arnav_/pen/RwReNXJ?editors=1010)\
 Steganography - [CodePen](https://codepen.io/Arnav_/pen/YzwxYwv)
  
 ## Live Demo Link

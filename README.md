@@ -8,6 +8,8 @@ Steganography - [CodePen](https://codepen.io/Arnav_/pen/YzwxYwv)
 ## Live Demo Link
 Hosted on [Netlify](https://private-ab.netlify.app/)
 
+![Screenshot from 2024-10-15 00-32-05](https://github.com/user-attachments/assets/a461d403-1207-4f26-9c75-6c711f66083a)
+
 ## How does it work
 | Sender Side Transmission | Receiver Side Transmission |
 |           :---:          |            :---:           |
